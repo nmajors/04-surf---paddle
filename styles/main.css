@@ -1,3 +1,7 @@
+* {
+  vertical-align: top;
+}
+
 header {
   height: 500px;
   width: 100%;
@@ -6,17 +10,25 @@ header {
   background-position: center center;
 }
 
-.panel {
+header .container {
   width: 980px;
   margin: 0 auto;
+  position: relative;
 }
-.hero-title {
+
+header .container .hero-title {
   text-align: center;
-  height:500px;
+  height: 500px;
+  margin: 0 auto;
   color: #fff;
-  position:relative;
-  top: 50%;
+  display: inline-block;
+  width: 100%;
+  position: absolute;
 }
+
+
+
+
 
 
 main {
