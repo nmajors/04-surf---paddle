@@ -3,7 +3,6 @@ header {
   width: 100%;
   background-image: url(http://sergiocardoso.neocities.org/placeholder-header-4.jpg);
 }
-
 main {
   margin: 50px 0;
 }
@@ -11,27 +10,27 @@ main {
   width: 980px;
   margin: 0 auto;
 }
-
-
-.sidebar  {
-  width: 238px;
-  float: right;
-  border: 1px solid blue;
-}
-
-
-.content  {
-  width: 738px;
+.content {
+  width: 688px;
   float: left;
   border: 1px solid red;
+  margin-right: 50px;
 }
+.sidebar {
+  width: 240px;
+  float: right;
+}
+.sidebar .advertisement {
+  text-align: right;
+  margin: 25 0;
+}
+
 footer {
   height: 490px;
   width: 100%;
-  background-color:green;
+  background-color: green;
 }
-
-.clearfix{
+.clearfix {
   overflow: auto;
-  zoom:1;
+  zoom: 1;
 }
