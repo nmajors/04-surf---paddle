@@ -19,7 +19,20 @@ header .container {
   position: relative;
 }
 
-header .container .hero-title {
+header .logo {
+	padding: 5px 0;
+	float: left;
+}
+
+
+
+header .logo p {
+	display: inline-block;
+	margin: 8px 0 0;
+  color: #FFF
+}
+
+header .hero-title {
   text-align: center;
   height: 400px;
   color: #fff;
@@ -28,20 +41,25 @@ header .container .hero-title {
   position: absolute;
 }
 
- h1 {
+ .hero-title h1 {
   margin: 0;
   padding: 110px 0 0 0;
   font-size: 5rem;
+  text-shadow: 4px 4px 4px #000;
 }
 
-header p {
+.hero-title p {
   margin: -5px 0 0 0;
+  text-shadow: 2px 2px 2px #000;
 }
 
 
 
 
-
+main .container  {
+  width: 980px;
+  margin: 0 auto;
+}
 
 main {
   margin: 50px 0;
