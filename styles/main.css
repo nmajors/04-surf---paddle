@@ -1,9 +1,12 @@
 * {
   vertical-align: top;
 }
-
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+}
 header {
-  height: 500px;
+  height: 400px;
   width: 100%;
   background-image: url(https://www.playstudios.com/wp-content/uploads/2015/11/property-birmingham-hero-placeholder.jpg);
   background-size: cover;
@@ -18,12 +21,21 @@ header .container {
 
 header .container .hero-title {
   text-align: center;
-  height: 500px;
-  margin: 0 auto;
+  height: 400px;
   color: #fff;
   display: inline-block;
   width: 100%;
   position: absolute;
+}
+
+ h1 {
+  margin: 0;
+  padding: 110px 0 0 0;
+  font-size: 5rem;
+}
+
+header p {
+  margin: -5px 0 0 0;
 }
 
 
