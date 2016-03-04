@@ -1,15 +1,28 @@
 header {
-  height: 499px;
+  height: 500px;
   width: 100%;
-  background-image: url(http://sergiocardoso.neocities.org/placeholder-header-4.jpg);
+  background-image: url(https://www.playstudios.com/wp-content/uploads/2015/11/property-birmingham-hero-placeholder.jpg);
+  background-size: cover;
+  background-position: center center;
 }
-main {
-  margin: 50px 0;
-}
-.container {
+
+.panel {
   width: 980px;
   margin: 0 auto;
 }
+.hero-title {
+  text-align: center;
+  height:500px;
+  color: #fff;
+  position:relative;
+  top: 50%;
+}
+
+
+main {
+  margin: 50px 0;
+}
+
 .content {
   width: 688px;
   float: left;
@@ -24,7 +37,6 @@ main {
   text-align: right;
   margin: 25 0;
 }
-
 footer {
   height: 490px;
   width: 100%;
