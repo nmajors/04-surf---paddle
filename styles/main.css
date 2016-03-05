@@ -39,19 +39,33 @@ header .hero-title {
   position: absolute;
 }
 
- .hero-title h1 {
+ header .hero-title h1 {
   margin: 0;
   padding: 110px 0 0 0;
   font-size: 5rem;
   text-shadow: 4px 4px 4px #000;
 }
 
-.hero-title p {
+header .hero-title p {
   margin: -5px 0 0 0;
   text-shadow: 2px 2px 2px #000;
 }
 
+header nav ul {
+  list-style-type: none;
+  float: right;
+}
 
+header nav ul a {
+  text-decoration: none;
+  color: white;
+
+}
+
+header nav li {
+  display: inline-block;
+  margin: 0 5px 5px 2.5px;
+}
 
 
 main .container  {
