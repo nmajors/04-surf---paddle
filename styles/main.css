@@ -12,24 +12,20 @@ header {
   background-size: cover;
   background-position: center center;
 }
-
 header .container {
   width: 980px;
   margin: 0 auto;
   position: relative;
 }
-
 header .logo {
-	padding: 5px 0;
-	float: left;
+  padding: 5px 0;
+  float: left;
 }
-
 header .logo p {
-	display: inline-block;
-	margin: 8px 0 0;
+  display: inline-block;
+  margin: 8px 0 0;
   color: #FFF
 }
-
 header .hero-title {
   text-align: center;
   height: 400px;
@@ -38,61 +34,80 @@ header .hero-title {
   width: 100%;
   position: absolute;
 }
-
- header .hero-title h1 {
+header .hero-title h1 {
   margin: 0;
   padding: 110px 0 0 0;
   font-size: 5rem;
   text-shadow: 4px 4px 4px #000;
 }
-
 header .hero-title p {
   margin: -5px 0 0 0;
   text-shadow: 2px 2px 2px #000;
 }
-
 header nav ul {
   list-style-type: none;
   float: right;
 }
-
 header nav ul a {
   text-decoration: none;
   color: white;
-
 }
-
 header nav li {
   display: inline-block;
   margin: 0 5px 5px 2.5px;
 }
 
-
-main .container  {
+main .container {
   width: 980px;
   margin: 0 auto;
 }
 
-main {
-  margin: 50px 0;
-}
-
 .content {
-  width: 688px;
+  width: 644px;
   float: left;
   border: 1px solid red;
-  margin-right: 50px;
+
 }
-.sidebar {
+
+main .sidebar {
   width: 240px;
   float: right;
 }
+
+.sidebar_byline {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.sidebar_byline h3{
+  margin: 5px;
+}
+
+.sidebar_byline nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0px;
+  padding-left: 0px
+}
+
+.sidebar_byline nav li {
+  display: inline-block;
+  margin: 0px 2px;
+}
+
+.sidebar_byline a {
+  text-decoration: none;
+  font-size: .9rem;
+  color: #666;
+  text-align: center;
+}
+
 .sidebar .advertisement {
   text-align: right;
   margin: 25 0;
 }
 footer {
-  height: 490px;
+  height: 400px;
   width: 100%;
   background-color: green;
 }
