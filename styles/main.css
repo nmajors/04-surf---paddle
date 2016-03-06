@@ -1,6 +1,4 @@
-* {
-  vertical-align: top;
-}
+
 body {
   font-family: Helvetica, sans-serif;
   margin: 0;
@@ -68,8 +66,21 @@ main .container {
   border: 1px solid red;
 }
 
-.byline object img {
+
+
+
+.byline_object span, .timestamp {
   display: inline-block;
+  vertical-align: middle;
+}
+
+.byline_object {
+  display: inline-block;
+}
+
+.timestamp {
+
+  margin: 0 0 0 20px;
 }
 
 
@@ -113,7 +124,17 @@ main .sidebar {
   text-align: right;
   margin: 25 0;
 }
-.sidebar
+
+.sidebar .advertisement a {
+  text-decoration: none;
+  font-size: .85rem;
+  color: #555;
+}
+
+.sidebar_description {
+  color: #593E2D;
+}
+
 footer {
   height: 400px;
   width: 100%;
