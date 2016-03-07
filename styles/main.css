@@ -1,8 +1,11 @@
 
 body {
-  background-color: #FFF8ED;
-  font-family: Helvetica, sans-serif;
-  margin: 0;
+
+  font-family: HelveticaNeue, Helvetica, sans-serif;
+  margin-top: 5px;
+  margin-right: 30px;
+  margin-left: 30px;
+
 }
 header {
   height: 400px;
@@ -10,6 +13,8 @@ header {
   background-image: url(https://www.playstudios.com/wp-content/uploads/2015/11/property-birmingham-hero-placeholder.jpg);
   background-size: cover;
   background-position: center center;
+  margin: 0 auto 30px 0;
+
 }
 header .container {
   width: 980px;
@@ -36,7 +41,7 @@ header .hero-title {
 header .hero-title h1 {
   margin: 0;
   padding: 110px 0 0 0;
-  font-size: 5rem;
+  font-size: 6em;
   text-shadow: 4px 4px 4px #000;
 }
 header .hero-title p {
@@ -56,15 +61,22 @@ header nav li {
   margin: 0 5px 5px 2.5px;
 }
 
-main .container {
+section.container, .clearfix {
   width: 980px;
   margin: 0 auto;
 }
 
 .content {
-  width: 644px;
+  width: 645px;
   float: left;
-  border: 1px solid red;
+
+}
+
+.content h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin: 0 auto;
+  color: #3E314F;
 }
 
 
@@ -95,11 +107,16 @@ main .sidebar {
 
 .sidebar_byline {
   text-align: center;
-  margin: 20px 0;
+  margin: 0;
+}
+
+.sidebar_byline img {
+  border-radius: 50%;
 }
 
 .sidebar_byline h3{
   margin: 5px;
+  color: #3E314F;
 }
 
 .sidebar_byline nav ul {
@@ -117,29 +134,42 @@ main .sidebar {
 .sidebar_byline a {
   text-decoration: none;
   font-size: .9rem;
-  color: #666;
+  color: #aaa;
   text-align: center;
 }
 
 .sidebar .advertisement {
   text-align: right;
-  margin: 25 0;
+  margin: 30px 0 0 0;
 }
 
 .sidebar .advertisement a {
-  text-decoration: none;
+  text-decoration: underline;;
   font-size: .85rem;
-  color: #555;
+  color: #aaa;
 }
 
 .sidebar_description {
-  color: #593E2D;
+  margin-top: 30px;
+}
+
+.sidebar_description h3 {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  color: #3E314F;
+  margin: 0 auto 5px auto;
+}
+.sidebar_description p {
+  color: #aaa;
+  line-height: 1.5;
+  margin: 0 auto;
 }
 
 footer {
   height: 400px;
   width: 100%;
   background-color: green;
+  margin-top: 30px;
 }
 .clearfix {
   overflow: auto;
