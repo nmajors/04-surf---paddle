@@ -81,22 +81,45 @@ section.container, .clearfix {
 
 
 
-
+.byline_object img{
+  float: left;
+  border-radius: 50%;
+  margin-right: 5px;
+}
 .byline_object span, .timestamp {
   display: inline-block;
-  vertical-align: middle;
+  font-size: .9rem;
+  margin: 6.5px auto;
+
 }
 
-.byline_object {
-  display: inline-block;
+.byline_object span {
+  font-weight: bolder;
+  color: #3e314f;
 }
+
 
 .timestamp {
-
   margin: 0 0 0 20px;
+  color: #aaa;
 }
 
+.timestamp span {
+  text-decoration: underline;
+}
 
+.content_post {
+  margin-top: 30px;
+  color: #666;
+  line-height: 1.5;
+}
+
+blockquote {
+  border-left: 1px solid #666;
+  font-size: 2rem;
+  color: #3e314f;
+  padding-left: 10px;
+}
 
 
 
@@ -107,7 +130,6 @@ main .sidebar {
 
 .sidebar_byline {
   text-align: center;
-  margin: 0;
 }
 
 .sidebar_byline img {
