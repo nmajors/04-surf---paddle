@@ -21,19 +21,45 @@ header .container {
   margin: 0 auto;
   position: relative;
 }
-header .logo {
-  padding: 5px 0;
+.logo {
+  display: inline-block;
+  margin-top: 5px;
+}
+header .logo img {
+  border-radius: 50%;
+  margin-right: 5px;
   float: left;
 }
-header .logo p {
+header .logo span {
   display: inline-block;
-  margin: 8px 0 0;
-  color: #FFF
+  margin: 6px auto;
+  color: #afa399;
 }
+
+ .headernav  {
+  float: right;
+  margin: 0 auto;
+}
+
+header ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 11px auto auto auto;
+}
+header ul a {
+  text-decoration: none;
+  color: #afa399;
+  margin: 5px auto 0 auto;
+}
+header li {
+  display: inline-block;
+  margin: 0 5px 5px 2.5px;
+}
+
 header .hero-title {
   text-align: center;
   height: 400px;
-  color: #fff;
+  color: #afa399;
   display: block;
   width: 100%;
   position: absolute;
@@ -41,24 +67,13 @@ header .hero-title {
 header .hero-title h1 {
   margin: 0;
   padding: 110px 0 0 0;
+  color: white;
   font-size: 6em;
   text-shadow: 4px 4px 4px #000;
 }
 header .hero-title p {
   margin: -5px 0 0 0;
   text-shadow: 2px 2px 2px #000;
-}
-header nav ul {
-  list-style-type: none;
-  float: right;
-}
-header nav ul a {
-  text-decoration: none;
-  color: white;
-}
-header nav li {
-  display: inline-block;
-  margin: 0 5px 5px 2.5px;
 }
 
 section.container, .clearfix {
@@ -190,9 +205,50 @@ main .sidebar {
 footer {
   height: 400px;
   width: 100%;
-  background-color: green;
   margin-top: 30px;
+  border-top: 1px solid #aaa;
 }
+
+footer div.container {
+  margin: 30px auto;
+}
+
+footer h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  color: #3e314f;
+  margin: 0 auto 30px auto;
+}
+
+.images {
+  width: 980px;
+}
+
+.images .link {
+  position: relative;
+  width: 245px;
+  float: left;
+}
+
+
+
+.images .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 245px;
+  height: 245px;
+  background-color: #836da8;
+  opacity: .5;
+  transition: opacity 2s;
+}
+
+.images .overlay:hover {
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+
 .clearfix {
   overflow: auto;
   zoom: 1;
