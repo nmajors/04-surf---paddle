@@ -31,7 +31,7 @@ header .logo img {
 header .logo span {
   display: inline-block;
   margin: 6px auto;
-  color: #afa399;
+  color: #aaa;
 }
 
  .headernav  {
@@ -46,7 +46,7 @@ header ul {
 }
 header ul a {
   text-decoration: none;
-  color: #afa399;
+  color: #aaa;
   margin: 5px auto 0 auto;
 }
 header li {
@@ -57,7 +57,7 @@ header li {
 header .hero-title {
   text-align: center;
   height: 400px;
-  color: #afa399;
+  color: #aaa;
   display: block;
   width: 100%;
   position: absolute;
@@ -223,13 +223,11 @@ footer h1 {
 }
 
 .images {
-  /*width: 980px;*/
   width: 100%;
 }
 
 .images .link {
   position: relative;
-  /*width: 245px;*/
   width: 25%;
   float: left;
 }
@@ -246,8 +244,6 @@ footer h1 {
   left: 0;
   width:100%;
   height: 100%;
-  /*width: 245px;*/
-  /*height: 245px;*/
   background-color: #836da8;
   opacity: .5;
   transition: opacity 2s;
